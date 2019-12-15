@@ -1,0 +1,121 @@
+/*2018011773 3班 谢婉琴*/
+.allbox{
+	 border-left:2px solid black; 
+    border-right:2px solid black; 
+    width:100%;
+    height:1200pxs;
+}
+#allbox{
+	 border-left:2px solid black; 
+    border-right:2px solid black; 
+    width:100%;
+    height:1200pxs;
+}
+.headbox{ 
+    background: gray;
+    width: 100%;
+    height: 20px;
+    margin:0px,auto; 
+}
+#topline{
+    width:900px;
+    margin: auto;
+    height: 20px;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid rgb(218, 217, 217);
+    position: relative;
+}
+.headbox img{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 130px; 
+    
+}
+.headbox p
+{
+    text-align: center;
+    line-height: 22px;
+    right: -500px;
+    top: -16px;
+    color: red;
+    width: 500px;
+    height: 20px; 
+    position: absolute;
+}
+.bigbox{
+    width: 1200px;
+    height: 390px;
+    margin:120px auto;
+    overflow: hidden;
+    /*border-left: 1px solid black;
+    border-right: 1px solid black;*/
+    position: relative;
+    background-color:rgb(255,255,255);
+
+}
+.bigbox >span{ 
+	opacity: 0;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(255,0,0);
+    top:175px;
+    width: 30px;
+    height: 50px;
+    display:block;
+    cursor:pointer;
+    font-size:30px;
+
+}
+.slider{
+   height: 382px;
+   width: 8400px;
+   position: absolute;
+   left:-1200px; 
+   margin-top:20px;
+   overflow: hidden;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+
+}
+#slide{
+    display: inline-block;
+    width: 1200px;
+    height: 382px;
+    margin-left: -5px;
+
+}
+img{
+    height: 400px;
+    width: 1200px;
+   /* border-left:2px solid black; 
+    border-right:2px solid black;*/  
+}
+#leftsign{
+    left: 30px;
+}
+#rightsign{
+    right: 30px;
+}
+.circle{
+    position: absolute;
+    left: 500px;
+    bottom: 0px;
+}
+.circle .active{
+    background: red;
+    color:white;
+}
+.circle li{
+    width:20px;
+    height: 20px;
+    background-color: #ccc;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    float:left;
+    text-align: center;
+    display:inline;
+}
